@@ -1,0 +1,22 @@
+{
+  "name": "secp256k1-resolution-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "yarn": "^3.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "ethereumjs-util": "7.1.5",
+    "secp256k1": "^4.0.3"
+  },
+  "resolutions": {
+    "secp256k1": "npm:@metamask/noble-secp256k1-compat-wrapper@1.0.3"
+  }
+}
